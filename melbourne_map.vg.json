@@ -7,7 +7,7 @@
     "layer": [
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/jfoo-monash/FIT_3179/refs/heads/main/Week9Homework/js/surrounding_area.json",
+                "url": "https://raw.githubusercontent.com/jfoo-monash/3179_week_9_homework/refs/heads/main/surrounding_area.json",
                 "format": {
                     "type": "topojson", "feature": "surrounding_area"
                 }
@@ -16,7 +16,7 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/jfoo-monash/FIT_3179/refs/heads/main/Week9Homework/js/greater_melbourne.json",
+                "url": "https://raw.githubusercontent.com/jfoo-monash/3179_week_9_homework/refs/heads/main/greater_melbourne.json",
                 "format": {"type": "topojson", "feature": "greater_melbourne"}
             },
             "transform": [
@@ -24,7 +24,7 @@
                     "lookup": "properties.melb_area",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/jfoo-monash/FIT_3179/refs/heads/main/Week9Homework/data/cultural_ratio.csv"
+                            "url": "https://raw.githubusercontent.com/jfoo-monash/3179_week_9_homework/refs/heads/main/cultural_ratio.csv"
                         },
                         "key": "melb_area",
                         "fields": ["percentage"]
